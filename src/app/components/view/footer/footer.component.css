@@ -1,4 +1,17 @@
 .page-footer{
-    height:200px;
-    background-color: black;
+    margin-top: 5%;
+    margin-bottom:0px;
+    padding:0px;
+    height:250px;
+    background-color:  rgb(20,18,19);;
+}
+
+@media (max-width: 650px){
+    .page-footer{
+        height: 100px;
+    }
+    .footer-copyright{
+        font-size: 10px;
+    }
+    
 }

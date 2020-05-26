@@ -9,6 +9,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { VentasComponent } from './components/ventas/ventas.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { FooterComponent } from './components/view/footer/footer.component';
+import { FormVentasComponent } from './components/ventas/form-ventas/form-ventas.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { FooterComponent } from './components/view/footer/footer.component';
     InicioComponent,
     VentasComponent,
     ContactoComponent,
-    FooterComponent
+    FooterComponent,
+    FormVentasComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

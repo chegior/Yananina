@@ -1,8 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
 
+
+*{
+    top:0;
+    height:auto;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 body{
+    background-image: url('./assets/back.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
     width: full;
     height: auto;
-    background-color: gray;
+    background-color: black;
     color:whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1 h2 h3 h4 {
+    color:#CCBC00;
+}
+.contenedor{
+    width:98%;
+    margin:auto;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;;
 }

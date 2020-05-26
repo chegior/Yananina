@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
+
 
 @Component({
   selector: 'app-ventas',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VentasComponent implements OnInit {
 
-  constructor() { }
+  actualRoute:any;
+  constructor(private router: Router,private route:ActivatedRoute) { }
 
   ngOnInit() {
+    this.actualRoute = this.route.snapshot.url;
+  }
+  onSelectRoute(){
+    this.router.navigate(['formulario']);
   }
 
 }

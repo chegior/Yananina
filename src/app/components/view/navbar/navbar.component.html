@@ -3,9 +3,14 @@
     <img src="assets/logo.png" alt="" width="60px" height="auto">
        <span> Yananina</span>
     </a>
-    <ul class="nav justify-content-end">
+   
+      <input class="hamburger" type="checkbox" id="menu-bar">
+      <label for="menu-bar"><i class="fa fa-bars fa-2x"></i></label>
+    
+    <div class="menuComp" id="menu">
+        <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link" routerLinkActive="active" routerLink="inicio" >Inicio</a>
+            <a class="nav-link" routerLinkActive="active" routerLink="inicio" (click)="ontest(1,2,3)" >Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " routerLinkActive="active" routerLink="ventas">Ventas</a>
@@ -17,5 +22,6 @@
             <a class="nav-link " routerLinkActive="active" routerLink="nosotros">Nosotros</a>
           </li >
         </ul>
+      </div>
 </nav>
 
